@@ -16,19 +16,21 @@ Using Bazaar, users will be able to install apps **without commands**
 # Step by step
 
 1. **Install WSL**
-- Run the wsl_setup.bat script
+- Download wsl_setup.bat (click on the script name on the repo --> top right "download raw")
+- Run the **wsl_setup.bat** script
 - Just download it and double click on it. .bat are windows shell scripts
 - It will take some time
 - You will be prompted to create a user (for linux). I suggest to use your usual windows credentials.
 
 2. **Install Bazaar**
-- Run the bazaar.bat script
+- Download bazaar.bat
+- Run the **bazaar.bat** script
 - You will be prompted for the Ubuntu password
 - It will take some time
 
 3. **Create a shortcut for Bazaar**
 - Right click on your desktop --> new --> shortcut
-- Paste the following line in the field
+- Paste the following line in the field :
 ```
  wsl -d Ubuntu flatpak run io.github.kolunmi.Bazaar
 ```
@@ -47,11 +49,13 @@ Using Bazaar, users will be able to install apps **without commands**
 6. Create a shortcut for your app
 	1. On [Flathub website](https://flathub.org/en/apps/io.github.kolunmi.Bazaar), look for the app name
 	2. replace `io.github.kolunmi.Bazaar` with the app name
-	3. Example for organic maps
+	3. Example for organic maps :
 ```
  wsl -d Ubuntu flatpak run app.organicmaps.desktop
 ```
 <img width="2060" height="1072" alt="Capture d’écran 2026-11-19 180440" src="https://github.com/user-attachments/assets/5eda3167-9892-43f5-a43f-fa4892598718" />
+
+<br>
 
 **Fun fact:**
 You can change the icon of the app using an image
