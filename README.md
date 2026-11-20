@@ -32,7 +32,9 @@ Using Bazaar, users will be able to install apps **without commands**
 ```
  wsl -d Ubuntu flatpak run io.github.kolunmi.Bazaar
 ```
-IMAGE
+<img width="550" alt="Capture d’écran 2026-11-19 172430" src="https://github.com/user-attachments/assets/829a979c-07a8-4c7b-92c7-a14a800d468a" />
+<img width="550" alt="Capture d’écran 2026-11-19 172550" src="https://github.com/user-attachments/assets/626d5893-db60-49d9-838d-a13f83fdbd34" />
+
 - Name the shortcut
 - IMPORTANT : right click your shortcut --> pin to start menu
 
@@ -41,17 +43,21 @@ IMAGE
 	2. Find your app
 	3. Download it
 
+
 6. Create a shortcut for your app
-	1. On [Flathub website](https://flathub.org/en/apps/io.github.kolunmi.Bazaar), look for the name of the app
+	1. On [Flathub website](https://flathub.org/en/apps/io.github.kolunmi.Bazaar), look for the app name
 	2. replace `io.github.kolunmi.Bazaar` with the app name
 	3. Example for organic maps
 ```
  wsl -d Ubuntu flatpak run app.organicmaps.desktop
 ```
+<img width="2060" height="1072" alt="Capture d’écran 2026-11-19 180440" src="https://github.com/user-attachments/assets/5eda3167-9892-43f5-a43f-fa4892598718" />
 
-IMAGE
 **Fun fact:**
 You can change the icon of the app using an image
+There is the Bazaar and OrganicMaps ico link in this repo.
+<img width="750"  alt="Capture d’écran 2026-11-19 185226" src="https://github.com/user-attachments/assets/f093730f-60c4-4909-b226-db8dbac0400e" />
+<img width="750"  alt="Capture d’écran 2026-11-19 185409" src="https://github.com/user-attachments/assets/6ebbb2d1-b95c-4862-9241-78a899e92d1d" />
 
 
 # Script and command explaination
@@ -71,7 +77,7 @@ More info about [systemd](https://wiki.archlinux.org/title/Systemd)
 wsl -d Ubuntu [...] #This tells WSL to run [...] on Ubuntu (you could have multiple subsystems)
 ```
 
-Bazaar.bat
+**Bazaar.bat**
 This checks for a distro called Ubuntu, then installs flatpak on it, to install Bazaar, with some logic to manage errors.
 ``` bash
 @echo off
