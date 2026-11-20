@@ -60,6 +60,8 @@ Using Bazaar, users will be able to install apps **without commands**
 **Fun fact:**
 You can change the icon of the app using an image
 There is the Bazaar and OrganicMaps ico link in this repo.
+
+
 <img width="750"  alt="Capture d’écran 2026-11-19 185226" src="https://github.com/user-attachments/assets/f093730f-60c4-4909-b226-db8dbac0400e" />
 <img width="750"  alt="Capture d’écran 2026-11-19 185409" src="https://github.com/user-attachments/assets/6ebbb2d1-b95c-4862-9241-78a899e92d1d" />
 
